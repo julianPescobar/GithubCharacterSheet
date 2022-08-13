@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <title>Github Character Status (by julianPescobar)</title>
+<style>
+     #toast-container {
+         min-width: 30%;
+ bottom:90%;
+ right: 50%;
+ transform: translateX(50%) translateY(50%);
+
+}
+body{
+ background-color: #123;
+}
+ </style> 
+</head>
+<body>
+
+ <div class="container">
+     <div class="row">
+         <div class="col s12">
+           <div class="card">
+             <div class="card-content black-text">
+               <span class="card-title">Github Character Stats</span>
+               <p>Search for Github Users and check their stats</p>
+             </div>
+             <div class="card-action">
+                 
+                 <div class="input-field">
+                     <input id="username" type="text" class="validate">
+                     <label for="username">Username<label>
+                   </div>
+                 
+                   <a id="buscar"class="waves-effect waves-light btn">buscar</a>
+                   <div class="person-stats">
+                    <div class="row"> 
+                        <div class="container col s5">
+                            <img class="materialboxed col s12" width="200px" ></img> 
+                            <h5 class="name col s12"></h6>
+                            <h6 class="lv col s12 purple-text"></h6>
+                            <h6 class="exp col s12 red-text"></h6>
+                            <h6 class="hp col s12 blue-text"></h6>
+                        </div>
+                    <ul class="collection col s7">
+                        <h5>equipped items:</h5>
+                    </ul>
+                    </div>
+                    <div class="row offset-1">
+                        
+                    </div>    
+                   </div>
+                  
+                  
+             </div>
+           </div>
+         </div>
+       </div>
+ </div>
+ <script src="app.js"></script>
+ <script
+src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+crossorigin="anonymous"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,10 @@
+{ "homepage": "https://julianPescobar.github.io/githubcharactersheet",
+"scripts": {
+  
+  "deploy": "gh-pages -d ."
+  
+},
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
